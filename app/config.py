@@ -1,0 +1,13 @@
+KNOWLEDGE_API_URL = "http://127.0.0.1:8000/itens"
+
+OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
+OLLAMA_MODEL = "qwen3.5:0.8b"
+
+CACHE_TTL_SECONDS = 60
+
+# limiares de confiança
+MIN_SCORE = 55
+DIRECT_RESPONSE_SCORE = 85
+
+OLLAMA_TIMEOUT = 30
+KNOWLEDGE_API_TIMEOUT = 5
