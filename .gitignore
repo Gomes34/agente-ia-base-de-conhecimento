@@ -1,0 +1,25 @@
+.env
+.env.enc
+.fernet.key
+build/
+*.exe
+*.log
+dist/
+*.zip
+*.xlsx
+*.xls
+*.txt
+output/
+.venv/
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+**/*.pyc
+
+# (opcional) caches de ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
